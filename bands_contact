@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    
+<title> Contact - test</title>
+	<head>
+ 
+    </head>
+    
+    <body>
+        <h1> Contact</h1>
+        
+         <a href="artist_profile.html"> Band profile</a>
+         <a href="Skedule.html"> Skedule</a>
+         <a href="bands_home.html"> Home</a>
+        
+        
+    </body>    
+    	
+
+
+
+</html>    

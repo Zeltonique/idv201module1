@@ -1,0 +1,361 @@
+$font-stack: 'lato';
+$primary-color : #E69213;
+$secondary-color : white;
+$light-back : #190C03;
+$primary-back : #000645;
+$secondary-back : black;
+
+body {
+          font: 100% $font-stack;
+          background-color: $light-back;
+          background: #190C03 url(slider2.jpg); 
+          width: 1450px;
+          height: 900px;
+
+
+          -webkit-background-size: cover; /* Safari en Chrome */
+          -moz-background-size: cover; /*  Old Firefox */
+          -o-background-size: cover; /* Opera */
+          background-size: cover; /* W3C */
+
+          font-family: 'Open Sans', sans-serif;
+          font-family:'lato';
+          color:   $secondary-color ;
+}
+
+h1 {
+          font-family: 'lato';
+          font-size: 40px; 
+          color : $primary-color;
+          text-align: center;
+        }
+
+h2 {
+          font: 36px $font-stack;
+          color : $primary-color;
+          text-align: center;
+          text-transform: uppercase;    
+        }
+
+h3 {
+          font: 24px $font-stack;
+          color : $primary-color;
+          text-align: center;
+}
+
+h4 {
+           font: 16px $font-stack;
+           color : $primary-color;
+}
+
+li {
+            color : $primary-color;
+}
+
+p {
+            color :$secondary-color;
+}
+
+
+
+
+
+
+
+a:hover	{	
+            background-color: $secondary-back;
+            padding: 5px 5px 5px 5px;
+  
+		}
+
+
+
+a   {
+            color:$secondary-color;
+            text-decoration:none;
+}
+    
+
+.header {
+            height: 100px;
+            width: 100%;
+            margin: 0px auto 0px 0px;
+            padding: 10px;
+               
+}
+
+
+.page   {
+            background-color:$secondary-back;
+            opacity: 0.9;
+            margin:0px auto 0px auto;
+            text-align: center;
+            width:80%;
+            padding: 20px 20px 20px 20px;
+            
+        }
+
+
+
+
+.header ul {
+            list-style-type: none;
+            margin-left: 900px;
+            
+           
+}
+
+.header ul li {
+            display : inline;
+            padding-right: 5px;
+            
+           
+     
+    
+}
+
+.header ul li a {
+            display : inline;
+    
+           
+
+}
+
+
+.logo {
+            display: inline;
+            float: left;
+            a:link, a:visited, a:hover { background-color: transparent; }
+            a { background-color: transparent; }
+}
+
+
+a:link, a:visited {
+            display: block;
+            width: 190px;
+            font-weight: bold;
+            color: $secondary-color;
+            background-color: $secondary-back;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+
+
+a:hover, a:active {
+            background-color: #6624C7;
+}
+  
+
+
+
+    
+
+.bands img {
+            padding: 20px 20px 20px 20px;
+            margin: auto;
+     
+}
+
+
+.header img { /*this is my logo*/
+            height: 83px;
+            width: 376px;
+}
+
+
+
+.intro  { /*the home page*/
+    
+            padding-top: 30px;
+}
+
+
+.words   {/*this is my home page, the words*/
+            
+            margin-top: 0px;
+            margin-left: 10px;
+            margin-right: 80px;
+            background-color: #ffffff;
+            padding-bottom: 100px;
+            padding-top: 100px;
+            opacity: 0.6;
+            filter: alpha(opacity=60);
+}
+
+.words h5    {
+            margin:30px;
+            font-weight: bold;
+            color: $secondary-back;
+            text-align: center;
+}
+
+
+
+h5  {
+            font-family: open sans;
+            font-size: 80px;
+            text-transform: uppercase;
+}
+
+
+.bands ul  {
+            list-style: none;
+            height: 750px;
+            margin-left: 100px;
+            margin-right: 30px;
+    
+    li  {
+            display:inline;
+            float: left;
+            width:300px;
+            height: 300px;
+    }
+    
+   a:hover { 
+            opacity: 0.4;
+            filter: alpha(opacity=400);
+            background-color: transparent; 
+  }
+}
+
+
+
+.text_about {
+            padding-bottom: 30px;
+            padding-right: 20px;
+            padding-left:  20px;
+            
+}
+
+
+
+
+
+
+label   {
+            display: block;
+            margin-bottom: 10px;
+            color: $secondary-color ;
+            align-items: center;
+     
+    
+        }
+
+
+input   {/*email and name input*/
+            display: block;
+            margin-bottom: 40px;
+            margin-left: 380px;
+            width: 200px;
+            color: $secondary-back ;
+            padding-left: 30px;
+               
+        }
+
+
+
+select  {/*type of ticket*/
+            display: inline;
+            margin-bottom: 40px;
+            margin-left: 0px;
+            width: 200px;
+            color: $secondary-color ;
+        }
+
+
+
+input[type=radio] {
+            display:inline;
+            width: 5px;
+            color: $secondary-color ;
+            padding-left: 80px;
+        }
+
+
+input[type=submit]  { /*buy now button*/
+            width: 80px;
+            color: $secondary-back;;
+            margin-left: 450px;
+               
+}
+
+
+
+.radio-label    {
+            display:inline;
+            color: $secondary-color ;
+            padding-top: 40px;
+            padding-left: 30px;
+            padding-right: 30px;
+}
+
+
+.footer     {
+                
+            font-size: 12px;
+}
+
+    
+
+.time       { text-align: left;}
+
+
+
+
+.bands_FAQ ul  { 
+    
+            list-style: none;
+            height: 750px;
+            margin-left: 50px;
+            margin-right: 80px;
+            margin-top: 90px;
+            margin-bottom: 10px;
+
+        li  {
+        display:inline;
+            float: left;
+            width:300px;
+            height: 300px;
+            padding-bottom: 10px;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+}
+
+
+.footer a { display: inline;
+          
+            font-size: 12px;
+           
+            padding: 1px 1px 1px 1px;
+            float:none;
+}
+
+
+
+.page {
+    
+    .profile
+    
+    
+    {       text-align:inherit;
+            margin: 20px 20px 20px 20px;
+        
+    }
+}
+
+
+
+.form   {  border: 1px solid white;
+           margin: 50px 90px 50px 90px;    
+
+}
+
+
+.bands_FAQ      { 
+    
+           padding: inherit;
+}
